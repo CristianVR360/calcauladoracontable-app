@@ -34,7 +34,7 @@ export function IvaCalculator() {
         : null;
 
     return (
-        <div className="flex flex-col items-center w-full pb-20">
+        <section id="iva" className="flex flex-col items-center w-full pb-20">
             <div className="w-full max-w-md px-4">
                 <h2 className="text-2xl font-bold mb-6 text-white tracking-wide flex items-center gap-2">
                     Calculadora de IVA
@@ -83,6 +83,6 @@ export function IvaCalculator() {
 
                 <ResultCard title="Resultados" items={results} />
             </div>
-        </div>
+        </section>
     );
 }

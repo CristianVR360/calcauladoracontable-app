@@ -39,7 +39,7 @@ export function HonorariosCalculator() {
         : null;
 
     return (
-        <div className="flex flex-col items-center w-full pb-20">
+        <section id="honorarios" className="flex flex-col items-center w-full pb-20">
             <div className="w-full max-w-md px-4">
                 <h2 className="text-2xl font-bold mb-6 text-white tracking-wide">
                     Boleta de Honorarios
@@ -88,6 +88,6 @@ export function HonorariosCalculator() {
 
                 <ResultCard title="Desglose" items={results} />
             </div>
-        </div>
+        </section>
     );
 }
